@@ -1,11 +1,20 @@
 {
   "name": "gifbot",
   "version": "1.0.0",
-  "description": "haha gifs go reee",
+  "description": "A Discord bot that fetches and shares GIFs from Giphy",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "discord",
+    "bot",
+    "gif",
+    "giphy",
+    "discord.js",
+    "nodejs"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
