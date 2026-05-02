@@ -34,7 +34,11 @@ A simple Discord bot that fetches and shares GIFs from Giphy, built with Node.js
    npm install
    ```
 
-3. Create a `.env` file in the root directory and add your credentials:
+3. Set up environment variables:
+   ```bash
+   cp .env.example .env
+   ```
+   Then edit `.env` with your credentials:
    ```env
    token=YOUR_DISCORD_BOT_TOKEN
    gifkey=YOUR_GIPHY_API_KEY
